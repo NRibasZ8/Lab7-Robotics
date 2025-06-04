@@ -29,5 +29,5 @@ The nodes used by the robot to set the start and end goal, are mapped in this gr
   * Webots R2024b or later
 
 ## Limitations and Future Improvements:
-  Some parts of the map are not localized properly
-  A* or D* Algorithms would make a faster, more optimized path finding. 
+  * Some parts of the map are not localized properly
+  * A* or D* Algorithms would make a faster, more optimized path finding. 

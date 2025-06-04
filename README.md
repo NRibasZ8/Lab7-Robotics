@@ -40,4 +40,6 @@ The nodes used by the robot to set the start and end goal, are mapped in this gr
 
 ## Limitations and Future Improvements:
   * Some parts of the map are not localized properly
-  * A* or D* Algorithms would make a faster, more optimized path finding. 
+  * A* or D* Algorithms would make a faster, more optimized path finding.
+  * Obstacle Avoidance is not present
+  * Live graphing of the path is to be implemented

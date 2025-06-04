@@ -18,7 +18,7 @@ Both codes depend on eachother, as one code will be ran by the ESP which control
 
 It uses a non-numpy version of Dijkstra's Algorithm (as shown in the jupyter Notebook), as micropython (used for running the code in the ESP32) does not support NumPy.
 
-##Mapping
+## Mapping
 The nodes used by the robot to set the start and end goal, are mapped in this graphic
 ![image](https://github.com/user-attachments/assets/5fd49e28-e9a7-4522-8e47-a8f4337e9d40)
 

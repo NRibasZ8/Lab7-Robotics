@@ -6,8 +6,8 @@ import sys
 import socket
 
 # Setup Wi-Fi socket communication with ESP32
-ESP32_IP = '172.20.10.2'  # Replace with the IP shown by your ESP32
-ESP32_PORT = 8888
+ESP32_IP = 'PRIVATE '# Replace with the IP shown by your ESP32
+ESP32_PORT = 'PRIVATE'
 
 try:
     # Establishes TCP socket connection

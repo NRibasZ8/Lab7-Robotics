@@ -28,6 +28,16 @@ The nodes used by the robot to set the start and end goal, are mapped in this gr
   * Thonny IDE
   * Webots R2024b or later
 
+### ESP Setup Thony IDE
+
+![image](https://github.com/user-attachments/assets/59ec68b6-a462-4416-a4b3-2149837392d4)
+
+### Webots Version Used
+
+![image](https://github.com/user-attachments/assets/1a2ed2b7-3268-4439-bbf9-27dbef28b19a)
+
+
+
 ## Limitations and Future Improvements:
   * Some parts of the map are not localized properly
   * A* or D* Algorithms would make a faster, more optimized path finding. 

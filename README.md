@@ -16,7 +16,13 @@ This project implements a complete autonomous navigation system featuring:
 This GitHub Repository includes the code that is used in both Thonny IDE (flashed to the ESP32) and on Webots. 
 Both codes depend on eachother, as one code will be ran by the ESP which controls the actions of the other code. 
 
-It uses a non-numpy version of Dijkstra's Algorithm (as shown in the jupyter Notebook), as micropython (used for running the code in the ESP32) does not support NumPy.
+The Relationship can be pictured as the following (image produced by DeepSeek AI):
+
+![deepseek_mermaid_20250604_9c5955](https://github.com/user-attachments/assets/eb3ce27f-02f2-473d-8f8f-be954de869c6)
+
+![deepseek_mermaid_20250604_57aece](https://github.com/user-attachments/assets/4ee71566-1e74-46c1-965e-f2d9ad8fbeb3)
+
+
 
 ## Mapping
 The nodes used by the robot to set the start and end goal, are mapped in this graphic

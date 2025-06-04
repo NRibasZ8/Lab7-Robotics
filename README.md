@@ -16,6 +16,10 @@ This project implements a complete autonomous navigation system featuring:
 This GitHub Repository includes the code that is used in both Thonny IDE (flashed to the ESP32) and on Webots. 
 Both codes depend on eachother, as one code will be ran by the ESP which controls the actions of the other code. 
 
+The Jupyter Notebook displays a first attempt at implementing Dijkstra's algorithm using the grid approach, rather than nodes. It allows
+for visualization of a custom grid and how a path is planned.
+
+
 The Relationship can be pictured as the following (image produced by DeepSeek AI):
 
 ![deepseek_mermaid_20250604_9c5955](https://github.com/user-attachments/assets/eb3ce27f-02f2-473d-8f8f-be954de869c6)

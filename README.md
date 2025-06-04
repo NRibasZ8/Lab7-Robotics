@@ -14,9 +14,12 @@ This project implements a complete autonomous navigation system featuring:
 - Junction detection and handling
 
 This GitHub Repository includes the code that is used in both Thonny IDE (flashed to the ESP32) and on Webots. 
-Both codes depend on eachother, as one code will be ran by the ESP which controls the actions of the other code. 
+Both codes depend on each other, as one code will be ran by the ESP which controls the actions of the other code. 
 
-It uses a non-numpy version of Dijkstra's Algorithm (as shown in the jupyter Notebook), as micropython (used for running the code in the ESP32) does not support NumPy.
+It uses a non-numpy version of Dijkstra's Algorithm, as micropython (used for running the code in the ESP32) does not support NumPy.
+
+The Jupyter Notebook displays a first attempt at implementing Dijkstra's algorithm using the grid approach, rather than nodes. It allows
+for visualization of a custom grid and how a path is planned.
 
 ## Mapping
 The nodes used by the robot to set the start and end goal, are mapped in this graphic
@@ -39,5 +42,7 @@ The nodes used by the robot to set the start and end goal, are mapped in this gr
 
 
 ## Limitations and Future Improvements:
-  * Some parts of the map are not localized properly
-  * A* or D* Algorithms would make a faster, more optimized path finding. 
+  * Some parts of the map are not localized properly.
+  * A* or D* Algorithms would make a faster, more optimized path finding.
+  * Obstacle avoidance is not present.
+  * Live graphing of the path is to be implemented.

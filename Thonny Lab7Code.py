@@ -5,8 +5,8 @@ from time import sleep
 import ujson
 
 # Wi-Fi communication setup
-SSID = "Matasiphone" # Replace with own SSID
-PASSWORD = "lol12344" # Replace with own Wi-Fi password
+SSID = "PRIVATE" # Replace with own SSID
+PASSWORD = "PRIVATE" # Replace with own Wi-Fi password
 print("Connecting to Wi-Fi")
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
